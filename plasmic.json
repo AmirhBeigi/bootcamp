@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -67,11 +67,16 @@
           "id": "SOdiGf5_2Kiv",
           "name": "IconIcon",
           "moduleFilePath": "plasmic/bootcamp/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "iMdzCwXJp6vj",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/bootcamp/icons/PlasmicIcon__Icon2.tsx"
         }
       ],
       "images": [],
       "indirect": false,
-      "globalContextsFilePath": "",
+      "globalContextsFilePath": "plasmic/bootcamp/PlasmicGlobalContextsProvider.tsx",
       "splitsProviderFilePath": "",
       "codeComponents": [
         {
@@ -85,6 +90,18 @@
           "name": "Fetcher",
           "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "QTgxuVO84Ibk",
+          "name": "Fragment",
+          "displayName": "Fragment",
+          "componentImportPath": "@/fragment/fragment"
+        },
+        {
+          "id": "AK3wPYlyQAes",
+          "name": "GrowthbookGlobalContext",
+          "displayName": "GrowthbookGlobalContext",
+          "componentImportPath": "@/fragment/growthbook"
         }
       ],
       "customFunctions": []
